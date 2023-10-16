@@ -139,10 +139,12 @@ class Carro {
         let listaCarroJSON = localStorage.getItem("listaCarro")
         let listaCarro = JSON.parse(listaCarroJSON)
         let listaAux = []
-        listaCarro.forEach(producto => {
-            let nuevoProducto = new Producto(producto.id, producto.nombre, producto.precio, producto.descripcion, producto.img, producto.unidad)
-            listaAux.push(nuevoProducto)
-        })
+        if (listaCarro) {
+            listaCarro.forEach(producto => {
+                let nuevoProducto = new Producto(producto.id, producto.nombre, producto.precio, producto.descripcion, producto.img, producto.unidad)
+                listaAux.push(nuevoProducto)
+            })
+        }
 
         this.listaCarro = listaAux;
     }
