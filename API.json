@@ -5,7 +5,7 @@
         "precio": 600,
         "descripcion": "Bomba defumasion",
         "unidad": 1,
-        "img": "../img/bombaspalosanto.jpg"
+        "img": "./img/bombaspalosanto.jpg"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "precio": 650,
         "descripcion": "Bombas de limpieza energeticas",
         "unidad": 1,
-        "img": "../img/bombaslimpiezaenergeticas.jpg"
+        "img": "./img/bombaslimpiezaenergeticas.jpg"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "precio": 750,
         "descripcion": "Pensadas para arminar cada uno de los chakras",
         "unidad": 1,
-        "img": "../img/bombas7chakras.jpg"
+        "img": "./img/bombas7chakras.jpg"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "precio": 1200,
         "descripcion": "Un sahumerio pensado para cada uno de sus chakras",
         "unidad": 1,
-        "img": "../img/sahumerios7chakras.jpg"
+        "img": "./img/sahumerios7chakras.jpg"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "precio": 750,
         "descripcion": "Encender una varilla por día",
         "unidad": 1,
-        "img": "../img/sahumeriopalosanto.jpg"
+        "img": "./img/sahumeriopalosanto.jpg"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "precio": 950,
         "descripcion": "Cada pastilla para cada uno de los días",
         "unidad": 1,
-        "img": "../img/pastillas7dias.jpg"
+        "img": "./img/pastillas7dias.jpg"
     },
     {
         "id": 7,
@@ -53,6 +53,6 @@
         "precio": 600,
         "descripcion": "Cuenco sahumador",
         "unidad": 1,
-        "img": "../img/cuenco.jpg"
+        "img": "./img/cuenco.jpg"
     }
 ]
